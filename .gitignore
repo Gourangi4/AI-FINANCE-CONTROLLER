@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.nox/
+.tox/
+.cache/
+
+# Python build and package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Generated application data (keep the synthetic source CSV files in data/)
+data/uploads/
+data/analytics/
+data/chroma_store/
+data/analytics_history.json
+data/report.json
+dashboard_snapshot.html
+
+# Generated exports and local reports
+reconciliation_report.pdf
+reconciliation_report.xlsx
+reconciliation_report.json
+
+# Local logs and runtime state
+*.log
+*.pid
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
