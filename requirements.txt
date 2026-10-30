@@ -1,0 +1,24 @@
+# --- Core pipeline -----------------------------------------------------
+pandas>=2.2
+numpy>=1.26
+rapidfuzz>=3.9
+
+# --- RAG (vector store + embeddings) -----------------------------------
+chromadb>=0.5
+
+# Hugging Face stack — primary embedding + generation backends
+sentence-transformers>=3.0
+transformers>=4.42
+torch>=2.2
+scikit-learn>=1.4      # used by the offline TF-IDF fallback
+
+# --- Web service ---------------------------------------------------------
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+itsdangerous>=2.2       # signed browser sessions for report isolation
+
+# --- Export & Reporting --------------------------------------------------
+reportlab>=4.0      # PDF generation
+openpyxl>=3.1       # Excel export
+python-dotenv>=1.0  # Email configuration
