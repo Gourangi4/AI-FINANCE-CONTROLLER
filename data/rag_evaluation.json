@@ -1,0 +1,9 @@
+[
+  {"query": "Invoice arrived without a purchase order reference", "expected_clause_id": "4.1"},
+  {"query": "Invoice total is more than the approved PO amount", "expected_clause_id": "4.2"},
+  {"query": "Same supplier invoice number and amount appears again", "expected_clause_id": "4.3"},
+  {"query": "Payment cannot be linked to an invoice or purchase order", "expected_clause_id": "4.4"},
+  {"query": "Supplier payment was issued after the due date", "expected_clause_id": "4.5"},
+  {"query": "A fuzzy supplier-name match needs the authoritative vendor key", "expected_clause_id": "7.1"},
+  {"query": "Automated exception explanations must retain policy citations", "expected_clause_id": "8.1"}
+]

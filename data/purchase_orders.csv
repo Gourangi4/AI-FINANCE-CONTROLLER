@@ -1,0 +1,17 @@
+po_id,vendor_name,vendor_code,po_date,po_amount,currency,approver,payment_terms_days
+PO-1001,Acme Industrial Supply,V-1001,2026-05-01,4820.00,USD,A. Okafor,30
+PO-1002,Silverline IT Services,V-1004,2026-05-03,1275.50,USD,S. Patel,30
+PO-1003,Meridian Facilities Mgmt,V-1006,2026-04-20,980.00,USD,A. Okafor,60
+PO-1004,Nova Office Solutions,V-1002,2026-05-02,3000.00,USD,A. Okafor,30
+PO-1005,Apex Marketing Group,V-1007,2026-04-15,12500.00,USD,J. Reyes,60
+PO-1006,Coastal Packaging Co.,V-1005,2026-05-05,2200.00,USD,M. Chen,45
+PO-1009,Acme Industrial Supply,V-1001,2026-05-01,1980.00,USD,M. Chen,45
+PO-1010,Nova Office Solutions,V-1002,2026-03-01,6100.00,USD,J. Reyes,30
+PO-1011,Apex Marketing Group,V-1007,2026-03-10,940.00,USD,S. Patel,60
+PO-1012,Coastal Packaging Co.,V-1005,2026-05-06,3390.00,USD,S. Patel,30
+PO-1013,Meridian Facilities Mgmt,V-1006,2026-05-01,2978.00,USD,J. Reyes,45
+PO-1014,Meridian Facilities Mgmt,V-1006,2026-05-02,6673.23,USD,J. Reyes,30
+PO-1015,Beacon Freight & Logistics,V-1003,2026-05-03,6911.41,USD,A. Okafor,30
+PO-1016,Meridian Facilities Mgmt,V-1006,2026-05-04,3325.05,USD,A. Okafor,60
+PO-1017,Nova Office Solutions,V-1002,2026-05-05,8524.26,USD,J. Reyes,45
+PO-1018,Coastal Packaging Co.,V-1005,2026-05-06,6563.00,USD,A. Okafor,45
